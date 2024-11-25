@@ -16,15 +16,15 @@ spec:
     spec:
       containers:
         - name: backend-feed
-          image: docker.io/thanhnk686/udagram-api-feed:laster
+          image: docker.io/thanhnk686/udagram-api-feed:v10
           imagePullPolicy: Always
           resources:
             requests:
               memory: "1024Mi"
               cpu: "500m"
             limits:
-              memory: "2048Mi"
-              cpu: "1000m"
+              memory: "1024Mi"
+              cpu: "500m"
           ports:
             - containerPort: 8080
           env:
@@ -79,6 +79,8 @@ spec:
               mountPath: "/root/.aws/"
               readOnly: true
       restartPolicy: Always
+      imagePullSecrets:
+        - name: dockerhub-secret
       volumes:
         - name: aws-secret
           secret:

@@ -16,15 +16,15 @@ spec:
     spec:
       containers:
         - name: backend-user
-          image: docker.io/thanhnk686/udagram-api-user:laster
+          image: docker.io/thanhnk686/udagram-api-user:v10
           imagePullPolicy: Always
           resources:
             requests:
               memory: "1024Mi"
               cpu: "500m"
             limits:
-              memory: "2048Mi"
-              cpu: "1000m"
+              memory: "1024Mi"
+              cpu: "500m"
           ports:
             - containerPort: 8080
           env:
