@@ -16,15 +16,15 @@ spec:
     spec:
       containers:
         - name: backend-feed
-          image: docker.io/thanhnk686/udagram-api-feed:v9
+          image: docker.io/thanhnk686/udagram-api-feed:v10
           imagePullPolicy: Always
           resources:
             requests:
               memory: "1024Mi"
               cpu: "500m"
             limits:
-              memory: "1024Mi"
-              cpu: "500m"
+              memory: "2048Mi"
+              cpu: "1000m"
           ports:
             - containerPort: 8080
           env:
