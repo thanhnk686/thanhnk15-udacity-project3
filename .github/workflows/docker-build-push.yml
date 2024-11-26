@@ -8,12 +8,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      DOCKER_USERNAME: thanhnk93
+      DOCKER_USERNAME: thanhnk686
       UDAGRAM_API_FEED_IMAGE_NAME: udagram-api-feed
       UDAGRAM_API_USER_IMAGE_NAME: udagram-api-user
       UDAGRAM_FRONTEND_IMAGE_NAME: udagram-frontend
       UDAGRAM_REVERSEPROXY_IMAGE_NAME: reverseproxy
-      TAG: v9  # Change this to the appropriate tag for the master branch
+      TAG: v10  # Change this to the appropriate tag for the master branch
 
     steps:
       - uses: actions/checkout@v3

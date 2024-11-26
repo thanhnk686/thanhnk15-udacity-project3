@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend-feed
-          image: docker.io/thanhnk93/udagram-api-feed:v10
+          image: docker.io/thanhnk686/udagram-api-feed:v10
           imagePullPolicy: Always
           resources:
             requests:
