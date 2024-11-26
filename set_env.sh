@@ -8,4 +8,4 @@ export AWS_BUCKET=arn:aws:s3:::thanhnk15-dev
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=testing
-export URL=http://a00de975ad2944433aa914838c2bdd4a-1826727037.us-east-1.elb.amazonaws.com:8080
+export URL=http://a6c8baf8e4bed48fc945ec66a98d48da-1987777566.us-east-1.elb.amazonaws.com:8080
