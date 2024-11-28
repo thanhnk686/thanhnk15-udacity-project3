@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend-user
-          image: docker.io/thanhnk686/udagram-api-user:v10
+          image: docker.io/thanhnk686/udagram-api-user:v11
           imagePullPolicy: Always
           resources:
             requests:

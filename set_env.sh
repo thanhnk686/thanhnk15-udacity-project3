@@ -2,10 +2,10 @@
 # DO NOT STORE YOUR CREDENTIALS INTO GIT
 export POSTGRES_USERNAME=postgres
 export POSTGRES_PASSWORD=passwordpostgres
-export POSTGRES_HOST=database-1.cptofoahqpnt.us-east-1.rds.amazonaws.com
+export POSTGRES_HOST=database-1.chghuowgzcdk.us-east-1.rds.amazonaws.com
 export POSTGRES_DB=postgres
-export AWS_BUCKET=thanhnk15-dev
+export AWS_BUCKET=arn:aws:s3:::thanhnk15-dev
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=testing
-export URL=http://a6c8baf8e4bed48fc945ec66a98d48da-1987777566.us-east-1.elb.amazonaws.com:8080
+export URL=http://a1429dda5a76644d7a94aac422e7e1a3-1983972780.us-east-1.elb.amazonaws.com:8080
